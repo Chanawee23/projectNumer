@@ -1,0 +1,174 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 8vmin;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-Bisection  {
+  background-image: url("cute1.jpg");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: rgb(126, 21, 78);
+}
+.App-FalsePosition  {
+  background-image: url("cute2.jpg");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: rgb(7, 62, 133);
+}
+
+.App-Newton  {
+  background-image: url("cute7.jpg");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: rgb(80, 55, 8);
+}
+
+.App-Onepoint {
+  background-image: url("cute6.jpg");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: rgb(212, 34, 168);
+}
+
+.App-Secant  {
+  background-image: url("cute5.jpg");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: rgb(148, 52, 7);
+}
+.App-HOME {
+  background-image: url("cute99.jpg");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  text-shadow: 3px 2px rgb(129, 141, 20);
+  text-align: center;
+  font-style: oblique;
+  font-size: 30px;
+  color: rgb(12, 90, 16);
+}
+.App-Trapezoidal  {
+  background-image: url("cute55.jpg");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: rgb(36, 95, 204);
+}
+.App-CompositeTrapezoidal{
+  background-image: url("cute77.jpg");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: rgb(247, 218, 54);
+}
+.App-Simpson  {
+  background-image: url("cute66.jpg");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: rgb(184, 26, 86);
+}
+.App-CompositeSimson  {
+  background-image: url("cute88.jpg");
+  background-repeat: repeat-x;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(5px + 2vmin);
+  color: rgb(247, 235, 76);
+}
+
+.App-background{
+  background-color: rgba(255, 110, 182, 0.74);
+}
+
+.App-background2{
+  background-color: rgba(64, 181, 248, 0.74);
+}
+
+.App-background3{
+  background-color: rgba(207, 168, 60, 0.74);
+}
+
+.App-background4{
+  background-color: rgba(95, 226, 43, 0.74);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
